@@ -16,3 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 $plugin->version = 2012041700;
+$plugin->component = 'block_attendance_csv_all';
+$plugin->dependencies = array('mod_attendance' => 2012120700);
+$plugin->maturity  = MATURITY_STABLE;
+$plugin->release   = '1';

@@ -10,6 +10,7 @@ $endday     = optional_param('endday', NULL, PARAM_INT);
 $endmonth   = optional_param('endmonth', NULL, PARAM_INT);
 $endyear    = optional_param('endyear', NULL, PARAM_INT);
 
+require_login();
 
 $timefrom   = mktime(0, 0, 0, $startmonth, $startday, $startyear);
 $timeto     = mktime(0, 0, 0, $endmonth, $endday, $endyear);

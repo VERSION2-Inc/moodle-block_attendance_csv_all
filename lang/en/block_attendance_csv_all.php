@@ -1,4 +1,4 @@
-<?PHP // $Id: block_attendance.php,v 1.7.2.1 2012/04/17 19:18:56 dlnsk Exp $ 
+<?php
 
 
 $string['blockname'] = 'Site Attendance Data';
